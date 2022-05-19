@@ -1,0 +1,57 @@
+:root {
+    --bg-color: #1c1c1c;
+    --basic-text-color: #efecd9;
+}
+
+body {
+    background-color: var(--bg-color) !important;
+}
+.navbar-toggler-icon {
+    font-size: 30px;
+}
+header .nav-link {
+    font-size: 1.25rem;
+    color: var(--basic-text-color) !important;
+}
+
+header .toggled-menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    z-index: 5;
+    display: none;
+}
+header .toggled-menu .nav-link {
+    font-size: 22px;
+}
+header .toggled-menu .close-menu {
+    color: var(--basic-text-color);
+}
+
+.intro-section h1 {
+    margin: auto;
+    /* max-width: 900px; */
+    color: var(--basic-text-color);
+    font-size: 4rem;
+    padding:  0 10rem;
+}
+.intro-section .btn-info {
+    background-color: var(--basic-text-color);
+    /* font-size: 18px; */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+footer > div {
+    /* max-width: 500px ; */
+    padding: 0 10rem;
+}
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--basic-text-color);
+}
